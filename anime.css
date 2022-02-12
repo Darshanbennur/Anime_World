@@ -1,0 +1,54 @@
+@font-face {
+    font-family: narutofont;
+    src: url(./fonts/naruto.ttf);
+}
+h1{
+    font-family:narutofont;
+    font-style:oblique ;
+    color: rgb(177, 17, 51);
+}
+body{
+    background-image: url('https://w.wallhaven.cc/full/z8/wallhaven-z8dg9y.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.header{
+    text-align: center;
+}
+#datte{
+    width: 30%;
+    height: 30%;
+    padding: 20px;
+    margin: 20px;
+    border: 0.1px solid rebeccapurple;
+    float: left;
+    transition: 0.5s;
+}
+#demimg{
+    width: 30%;
+    height: 30%;
+    padding: 20px;
+    margin: 20px;
+    border: 0.1px solid rebeccapurple;
+    float: right;
+    transition: 0.5s;
+}
+#demimg:hover{
+    transform: scale(1.1);
+}
+#datte:hover{
+    transform: scale(1.1);
+}
+#nartext{
+    font-family:narutofont;
+}
+input[type="button"]{
+    border-radius: 5px;
+    padding: 5px;
+    color:bisque;
+    background-color: black;
+
+}
+#demoslatext{
+    color:rgb(85, 228, 204);
+}
